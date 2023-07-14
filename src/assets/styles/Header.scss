@@ -1,0 +1,17 @@
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  color: white;
+
+  gap: 10px;
+  &__a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

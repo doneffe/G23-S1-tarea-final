@@ -1,0 +1,23 @@
+.main-container {
+  &__option {
+    font-style: italic;
+  }
+  &__select {
+    background: none repeat scroll 0 0 #e5e3e3;
+    border: 1px dotted #cccccc;
+    height: 18px;
+    text-indent: 3px;
+    text-transform: capitalize;
+  }
+  &__button{
+    background-color: #e7e7e7; 
+    color: black;
+    border: none;
+    margin-left: 2px;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12x;
+  }
+}
